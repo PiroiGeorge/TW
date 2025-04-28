@@ -1,0 +1,83 @@
+@use '../../node_modules/bootstrap/scss/bootstrap.scss' with (
+  // Culori principale
+  $primary: #5C4033, // Maro ciocolată
+  $secondary: #7A5B4A, // Maro cald
+  $success: #B7E4C7, // Verde mentă
+  $danger: #D64045, // Roșu cireșe
+
+  // Fundaluri
+  $body-bg: #FFF5E1, // Crem cald
+  $body-secondary-bg: #FFF9F0,
+
+  // Culori text
+  $body-color: #5C4033,
+
+  // Breakpoints
+  $grid-breakpoints: (
+    sm: 480px,
+    md: 768px,
+    lg: 1200px,
+    xl: 1400px
+  ),
+
+  // Border radius
+  $border-radius: 1rem,
+  $border-radius-lg: 1.5rem,
+  $border-radius-sm: 0.5rem,
+
+  // Heading font-size
+  $h1-font-size: 2.8rem,
+  $h2-font-size: 2.2rem,
+  $h3-font-size: 1.8rem,
+  $h4-font-size: 1.5rem,
+  $h5-font-size: 1.2rem,
+  $h6-font-size: 1rem,
+
+  // Font implicit
+  $font-family-base: "'Poppins', sans-serif",
+
+  // Variabila extra
+  $border-width: 3px
+);
+
+// Corectare font-size body
+body {
+  font-size: 1rem;
+}
+
+// Clase pentru teme folosind culori reale
+.tema-ciocolata {
+  background-color: #FFF5E1; // Fundal crem cald
+  color: #5C4033; // Text maro ciocolată
+}
+
+.tema-vanilie {
+  background-color: #FFF9F0; // Fundal mai deschis
+  color: #7A5B4A; // Text maro cald
+}
+
+// Exemple pe componente Bootstrap
+.btn-primary {
+  background-color: #D64045; // Rosu cireșe
+  border-color: #D64045;
+
+  &:hover {
+    background-color: #B73238; // Rosu inchis (hover)
+    border-color: #B73238;
+  }
+}
+
+.btn-secondary {
+  background-color: #E3C565; // Auriu
+  border-color: #E3C565;
+
+  &:hover {
+    background-color: #B49545; // Auriu inchis (hover)
+    border-color: #B49545;
+  }
+}
+
+.card {
+  background-color: #FFF9F0; // Fundal secundar
+  border-color: #EAE4DC; // Bordura soft gri cald
+}

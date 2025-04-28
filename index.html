@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ro"   >  
+<head>
+    <title>Sweet Dreams 🍰</title>
+
+    <!-- Pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Prajituri proaspete, Livrare rapida, Torturi personalizate, Prajituri artizanale, Produse de patiserie, Deserturi fara zahar, Ingrediente naturale, Comanda rapida, Gust autentic, Magazin prăjituri, Comenzi speciale">
+    <meta name="description" content="Sweet Dreams - Prajituri artizanale, torturi delicioase si dulciuri rafinate, pregatite cu ingrediente de calitate. Comanda online si bucura-te de gustul perfect!"> 
+    <meta name="author" content="Piroi Madalin-George" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./resurse/imagini/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./resurse/imagini/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./resurse/imagini/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./resurse/imagini/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="./resurse/imagini/favicon/site.webmanifest" />
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./resurse/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/spatiere.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/general.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/layout-grid.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/font-size.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/tabel.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/top.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/video.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/nav1000.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/nav700.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="./resurse/css/print.css">
+
+    <!-- font google pacifico -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+
+    <!-- link CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+</head>
+
+<body style="
+  --culoare-primara: #5C4033;
+  --culoare-secundara: #7A5B4A;
+  --accent-rosu: #D64045;
+  --hover-rosu: #B73238;
+  --accent-roz: #F8BBD0;
+  --accent-verde: #B7E4C7;
+  --accent-auriu: #E3C565;
+  --hover-auriu: #B49545;
+  --fundal-principal: #FFF5E1;
+  --fundal-secundar: #FFF9F0;
+  --bordura-soft: #EAE4DC;
+">
+
+
+<div id="banner">Acesta este un proiect scolar!</div>
+<div id="absolut"></div>
+
+    <!-- header -->
+    <header >
+
+        <!-- Titlul -->
+        <h1>Sweet Dreams 🍰</h1>
+
+        <!-- Meniu Navigare -->
+        <nav>
+
+            <label id="hamburger" for="ch-menu">
+                <div class="hamburger-bar"></div>
+                <div class="hamburger-bar"></div>
+                <div class="hamburger-bar"></div>
+              </label>
+              
+              
+            <input id="ch-menu" type="checkbox">
+
+            <ul class="meniu">
+
+                <li><a href="#"><span>Home</span></a></li>
+
+                <li><a href="#Produse"><span>Produse</span></a>
+                    <ul>
+                        <li><a href="#Torturi_aniversare">Torturi aniversare</a></li>
+                        <li><a href="#Prajituri_de_casa">Prajituri de casa</a></li>
+                        <li><a href="#Fursecuri">Fursecuri</a></li>
+                        <li><a href="#Prajituri_fara_zahar">Prajituri fara zahar</a></li>
+                        <li><a href="#Prajituri_vegane">Prajituri vegane</a></li>
+                    </ul>
+                    </li>
+                
+                
+                
+                <li><a href="#Servicii"><span>Servicii</span></a>
+                    <ul>
+                        <li><a href="#Livrare_la_domiciliu">Livrare la domiciliu</a></li>
+                        <li><a href="#Personalizare_torturi">Personalizare torturi</a></li>
+                        
+                    </ul>
+                </li>
+                
+                
+
+                <li><a href="#Despre_noi"><span>Despre noi</span></a></li>
+                <li><a href="#Contact"><span>Contact</span></a></li>
+            </ul>
+
+
+        </nav>
+
+    </header>
+    
+    <!-- main -->
+    <main>
+
+    <!-- Grid pagina-->
+    <div id="grid-pagina">
+    <!-- zone1 -->
+    <section class="zone1">
+        <!-- image resize + harta imagine-->
+        <figure>
+            <picture>
+                <!-- Imaginea pentru ecrane mici -->
+                <source srcset="./resurse/imagini/Meniu_small.jpg" media="(max-width:600px)">
+                
+                <!-- Imaginea pentru ecrane medii -->
+                <source srcset="./resurse/imagini/Meniu_medium.jpg" media="(max-width:800px)">
+                
+                <!-- Imaginea pentru ecrane mari -->
+                <source srcset="./resurse/imagini/Meniu_large.jpg" media="(min-width:1024px)">
+                
+                <!-- Imaginea implicita -->
+                <img src="./resurse/imagini/Meniu_large.jpg" id="Meniu-image" alt="Tort aniversar cu ciocolată și decor elegant">
+            </picture>
+        
+            <!-- Maparea pentru diferite dimensiuni -->
+            <map name="mapaSmall" id="mapaSmall">
+                <area shape="rect" coords="0,0,75,75" href="#" alt="Home">
+                <area shape="rect" coords="75,0,150,75" href="#Produse" alt="Produse">
+                <area shape="rect" coords="150,0,225,75" href="#Torturi_aniversare" alt="Torturi Aniversare">
+                <area shape="rect" coords="225,0,300,75" href="#Prajituri_de_casa" alt="Prajituri de casa">
+                <area shape="rect" coords="300,0,375,75" href="#Fursecuri" alt="Fursecuri">
+                <area shape="rect" coords="375,0,450,75" href="#Prajituri_fara_zahar" alt="Prajituri fara zahar">
+                <area shape="rect" coords="0,75,75,150" href="#Prajituri_vegane" alt="Prajituri Vegane">
+                <area shape="rect" coords="75,75,150,150" href="#Servicii" alt="Servicii">
+                <area shape="rect" coords="150,75,225,150" href="#Livrare_la_domiciliu" alt="Livrare la domiciliu">
+                <area shape="rect" coords="225,75,300,150" href="#Personalizare_torturi" alt="Personalizare Torturi">
+                <area shape="rect" coords="300,75,375,150" href="#Despre_noi" alt="Despre noi">
+                <area shape="rect" coords="375,75,450,150" href="#Contact" alt="Contact">
+            </map>
+        
+            <map name="mapaMedium" id="mapaMedium">
+                <area shape="rect" coords="0,0,130,130" href="#" alt="Home">
+                <area shape="rect" coords="130,0,260,130" href="#Produse" alt="Produse">
+                <area shape="rect" coords="260,0,390,130" href="#Torturi_aniversare" alt="Torturi Aniversare">
+                <area shape="rect" coords="390,0,520,130" href="#Prajituri_de_casa" alt="Prajituri de casa">
+                <area shape="rect" coords="520,0,650,130" href="#Fursecuri" alt="Fursecuri">
+                <area shape="rect" coords="650,0,780,130" href="#Prajituri_fara_zahar" alt="Prajituri fara zahar">
+                <area shape="rect" coords="0,130,130,260" href="#Prajituri_vegane" alt="Prajituri Vegane">
+                <area shape="rect" coords="130,130,260,260" href="#Servicii" alt="Servicii">
+                <area shape="rect" coords="260,130,390,260" href="#Livrare_la_domiciliu" alt="Livrare la domiciliu">
+                <area shape="rect" coords="390,130,520,260" href="#Personalizare_torturi" alt="Personalizare Torturi">
+                <area shape="rect" coords="520,130,650,260" href="#Despre_noi" alt="Despre noi">
+                <area shape="rect" coords="650,130,780,260" href="#Contact" alt="Contact">
+            </map>
+        
+            <map name="mapaLarge" id="mapaLarge">
+                <area shape="rect" coords="0,0,200,200" href="#" alt="Home">
+                <area shape="rect" coords="200,0,400,200" href="#Produse" alt="Produse">
+                <area shape="rect" coords="400,0,600,200" href="#Torturi_aniversare" alt="Torturi Aniversare">
+                <area shape="rect" coords="600,0,800,200" href="#Prajituri_de_casa" alt="Prajituri de casa">
+                <area shape="rect" coords="800,0,1000,200" href="#Fursecuri" alt="Fursecuri">
+                <area shape="rect" coords="1000,0,1200,200" href="#Prajituri_fara_zahar" alt="Prajituri fara zahar">
+                <area shape="rect" coords="0,200,200,400" href="#Prajituri_vegane" alt="Prajituri Vegane">
+                <area shape="rect" coords="200,200,400,400" href="#Servicii" alt="Servicii">
+                <area shape="rect" coords="400,200,600,400" href="#Livrare_la_domiciliu" alt="Livrare la domiciliu">
+                <area shape="rect" coords="600,200,800,400" href="#Personalizare_torturi" alt="Personalizare Torturi">
+                <area shape="rect" coords="800,200,1000,400" href="#Despre_noi" alt="Despre noi">
+                <area shape="rect" coords="1000,200,1200,400" href="#Contact" alt="Contact">
+            </map>
+        </figure>
+        
+        <script>
+            function updateImageMap() {
+                const img = document.getElementById("Meniu-image");
+                const width = window.innerWidth;
+        
+                if (width <= 600) {
+                    img.useMap = "#mapaSmall";
+                } else if (width <= 800) {
+                    img.useMap = "#mapaMedium";
+                } else {
+                    img.useMap = "#mapaLarge";
+                }
+            }
+        
+            window.addEventListener("resize", updateImageMap);
+            window.addEventListener("load", updateImageMap);
+        </script>
+    </section>
+
+
+    <!-- js nav mic-->
+    <script>
+        const checkbox = document.getElementById("ch-menu");
+        const menuLinks = document.querySelectorAll("ul.meniu li a");
+      
+        checkbox.addEventListener("change", () => {
+          if (checkbox.checked) {
+            // După 1.3s — cât durează tranziția — aplică colț drept
+            setTimeout(() => {
+              menuLinks.forEach(link => link.classList.add("clip-normal"));
+            }, 1300);
+          } else {
+            // Când se închide meniul, elimină clasa
+            menuLinks.forEach(link => link.classList.remove("clip-normal"));
+          }
+        });
+      </script>
+      
+
+    <!-- zone2 -->
+    <section class="zone2">
+        <div class="container-tabel-scroll">
+            <table id="stilizare-tabel">
+              <caption>Top produse vandute in luna martie</caption>
+          
+              <thead>
+                <tr>
+                  <th>Loc</th>
+                  <th>Denumire</th>
+                  <th>Cantitate vândută</th>
+                  <th>Tip produs</th>
+                </tr>
+              </thead>
+          
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Tort de ciocolata</td>
+                  <td>125</td>
+                  <td rowspan="2">Tort aniversar</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Tort Red Velvet</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td colspan="2">Pachet prajituri mix</td>
+                  <td>Asortat</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Fursecuri cu migdale</td>
+                  <td>80</td>
+                  <td>Fursecuri</td>
+                </tr>
+              </tbody>
+          
+              <tfoot>
+                <tr>
+                  <td colspan="4">Total produse analizate: 4</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          
+    </section>
+
+    <!-- zone3 -->
+    <section class="zone3">
+        <h2>Calendar</h2>
+    </section>
+
+    <!-- zone4 -->
+    <section class="zone4">
+        <h2>Anunturi</h2>
+    </section>
+
+    <!-- zone5 -->
+    <section class="zone5">
+        <h2>Utilizatori online</h2>
+    </section>
+
+    <!-- zone6 -->
+    <section class="zone6">
+        <h2>Date utilizatori si statistici</h2>
+    </section>
+
+    <!-- zone 7 -->
+    <section class="zone7">
+        <h2>Informatii site/server</h2>
+        <p>Verisunea: v1.0 | Uptime: 99.9%</p>
+    </section>
+
+    <!-- zone 8 -->
+    <section class="zone8">
+        
+        
+        <!-- link catre un alt site -->
+        <section>
+            <p>Descoperă rețete delicioase pe <a href="https://www.retetepractice.ro/" target="_blank">retetepractice.ro</a>.</p>
+        
+        </section>
+
+
+        <!-- videoclipuri-->
+        <section>
+            <h2>🎬 Videoclipuri relevante</h2>
+          
+            <div class="container-iframe">
+              <div class="taburi-iframe">
+                <a href="https://www.youtube.com/embed/qtlhdIfojmc" target="ifr-video">Reteta tort vanilie</a>
+                <a href="https://www.youtube.com/embed/dsJtgmAhFF4" target="ifr-video">Reteta tort ciocolata</a>
+                <a href="https://www.youtube.com/embed/Wtxbt-CpA2s" target="ifr-video">Reteta tort căpșuni</a>
+              </div>
+          
+              <iframe name="ifr-video" width="560" height="315"
+                src="https://www.youtube.com/embed/qtlhdIfojmc"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </section>
+          
+
+        <section>
+    
+        <!-- Link de tip download -->
+        <p>📥 Descarcă meniul nostru complet:</p>
+        <a href="./resurse/documente/Meniu.pdf" download="Meniu_Sweet_Dreams.pdf">Meniu PDF</a>
+        <br>
+        <!-- embed -->
+        <embed src="./resurse/documente/Meniu.pdf" type="application/pdf" width="600" height="400">
+        </section>
+
+        <!-- Sectiunea Produse-->
+         <section id="Produse">
+
+            <h2>🍪 Produse</h2>
+            <p>Descopera sectiunea noastra de <b>prajituri artizanale</b>, pregatite cu cele mai bune ingrediente. </p>
+
+            <!-- Subsectiunea Torturi aniversare-->
+            <article id="Torturi_aniversare">
+                <h3><i class="fas fa-birthday-cake fa-spin"></i> Torturi</h3>
+                <p>Perfecte pentru orice ocazie speciala! </p>
+                <ul>
+                    <li><b>Tort de ciocolata</b> - bogat si intens. </li>
+                    <li><b>Tort de vanilie</b> - pufos si aromat.</li>
+                    <li><b>Tort Red Velvet</b> - elegant si cremos.</li>
+                </ul>
+                <details>
+                    <summary>Vezi mai multe detalii!</summary>
+                    <p>Toate torturile noastre sunt realizate si contin <i>ingrediente naturale</i>. Poti personaliza tortul dupa preferintele tale!</p>
+                </details>
+            </article>
+
+            <!-- Subsectiunea Prajituri-->
+            <article id="Prajituri_de_casa">
+                <h3>🏡🍮 Prajituri de casa</h3>
+                <p>Gust autentic,retete traditionale.</p>
+                <ul>
+                    <li>Prajituri cu nuca si miere.</li>
+                    <li>Prajituri cu ciocolata.</li>
+                    <li>Prajituri cu fructe.</li>
+                </ul>
+                <details>
+                    <summary>Vezi mai multe detalii!</summary>
+                    <p>Retetele noastre sunt inspirate din traditiile de familie si folosesc doar <i>ingrediente naturale</i>.</p>
+                </details>
+            </article>
+
+            <!-- Sectiunea fursecuri-->
+            <article id="Fursecuri">
+                <h3>🍪 Fursecuri</h3>
+                <p>Crocante si delicioase</p>
+                <ul>
+                    <li>Fursecuri cu unt.</li>
+                    <li>Fursecuri cu gem.</li>
+                    <li>Fursecuri cu migdale.</li>
+                </ul>
+                <details>
+                    <summary>Vezi mai multe detalii!</summary>
+                    <p>Realizate cu unt de calitate si arome naturale pentru un gust autentic.</p>
+                </details>
+            </article>
+
+            <!-- Subsectiune Prajituri fara zahar-->
+             <article id="Prajituri_fara_zahar">
+                <h3>🚫🍬 Prajituri fara zahar</h3>
+                
+                <p>Alternative sanatoase,fara compromis la gust.</p>
+                
+                <ul>
+                    <li>Prajituri cu indulcitori naturali.</li>
+                    <li>Prajituri proteice.</li>
+                </ul>
+                <details>
+                    <summary>Vezi mai multe detalii!</summary>
+                    <p>Prajiturile noastre fara zahar sunt perfecte pentru cei care vor sa reduca consumul de zahar, dar sa se bucure de un desert delicios.</p>
+                </details>
+
+               <article>
+                 <!-- formule MathMl -->
+                <h4>📊🧠 Formula de calculat indicele glicemic!</h4>
+                 <math xmlns="http://www.w3.org/1998/Math/MathML">
+                    <mrow>
+                        <mi>IG</mi>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>Glucoza</mi>
+                                <mo>&times;</mo>
+                                <mn>100</mn>
+                            </mrow>
+                            <mi>Carbohidrati</mi>
+                        </mfrac>
+                    </mrow>
+                </math>
+               </article>
+             </article>
+
+             <!-- Subsectiune Prajituri vegane-->
+              <article id="Prajituri_vegane">
+                <h3>🌱 Prajituri vegane</h3>
+                <p>Fara ingrediente de origine animala, ideale pentru orice dieta vegana.</p>
+                <ul>
+                    <li>Prajituri cu banane si ovaz.</li>
+                    <li>Prajituri cu ciocolata neagra.</li>
+                </ul>
+                <details>
+                    <summary>Vezi mai multe detalii!</summary>
+                    <p>Realizate doar din ingrediente 100% vegetale, aceste prajituri sunt delicioase si hranitoare.</p>
+                </details>
+              </article>
+
+        </section>
+
+        <!-- Sectiunea servicii-->
+         <section id="Servicii">
+         <h2><i class="fas fa-gift"></i> Serviciile noastre</h2>
+         <p>Oferim <b>livrare rapida</b> si posibilitatea de <b> personalizare a torturiilor</b></p>
+
+         <!-- Subsectiune Livrare la domiciliu-->
+         <article id="Livrare_la_domiciliu">
+            <h3>🚚📦 Livrare la domiciliu</h3>
+            <p>Produsele ajung la tine proaspete si delicioase.</p>
+            <blockquote>"Am primit tortul chiar in ziua aniversarii si era perfect! - Maria I."</blockquote>
+            <details>
+                <summary>Vezi mai multe detalii!</summary>
+                <p>Livram in <strong>Bucuresti si Ilfov</strong> in termen de 24 de ore.Transport gratuit la peste 150 RON.</p>
+            </details>
+         </article>
+
+        <!-- Subsectiune Personalizare toturi-->
+        <article id="Personalizare_torturi">
+            <h3>✍️🎂 Personalizare torturi</h3>
+            <p>Fa-ti tortul asa cum iti doresti!</p>
+            <details>
+                <summary>Vezi mai multe detalii!</summary>
+                <p>Alege aroma,crema si decorul perfect. Poti adauga si mesaje personalizate.</p>
+            </details>
+        </article>
+        </section>
+
+        <!-- Sectiunea Despre noi-->
+        <section id="Despre_noi"> 
+            <h2>💖 Pasiunea noastră pentru dulciuri</h2> 
+            <p>La <b>Sweet Dreams</b>, ne dedicăm creării celor mai delicioase prăjituri artizanale, folosind doar ingrediente naturale și de cea mai bună calitate. Fiecare desert este pregătit cu grijă, pentru a aduce un zâmbet pe chipul fiecărui client.</p> 
+            
+            <h3>📜 Povestea noastră</h3> 
+            <p>Totul a început dintr-o pasiune pentru cofetărie și dorința de a oferi deserturi autentice, care să îmbine gustul tradițional cu inovația modernă. De-a lungul anilor, am perfecționat rețetele și am dezvoltat un meniu diversificat, adaptat tuturor preferințelor.</p> 
+            
+            <h3>🎯 Misiunea noastră</h3> 
+            <p>Ne dorim să oferim clienților noștri produse proaspete, sănătoase și personalizate, astfel încât fiecare comandă să fie o experiență unică și memorabilă.</p> 
+            
+            <h3>🍰 De ce să ne alegi?</h3> 
+            <ul> 
+                <li>✅ Folosim doar <b>ingrediente naturale</b>, fără conservanți sau aditivi.</li> 
+                <li>✅ Oferim <b>torturi și prăjituri personalizate</b>, exact așa cum îți dorești.</li>
+                <li>✅ Asigurăm <b>livrare rapidă</b>, pentru ca dulciurile să ajungă proaspete la tine.</li>
+                <li>✅ Avem opțiuni pentru toate gusturile: <b>vegan, fără zahăr, tradițional</b>.</li> 
+            </ul> 
+            
+            <h3>📍 Unde ne găsești?</h3> 
+            <p>Ne găsești în <b>București, pe Strada Academiei 14</b>, dar poți comanda și online, iar noi îți livrăm rapid prăjiturile preferate.</p> 
+            
+            <h3>💬 Hai să vorbim!</h3> 
+            <p>Dacă ai întrebări sau vrei să comanzi ceva special, contactează-ne! Suntem mereu bucuroși să te ajutăm.</p> 
+        </section>
+
+      
+
+         <!-- Sectiune Contact-->
+          <section id="Contact">
+            <h2>📞 Contact</h2>
+            <p>Pentru comenzi si informatii, ne poti contacta:</p>
+            <ul>
+                <li>📱 Telefon:<a href="tel:+400712345678">+40 712 345 678</a></li>
+                <li>📧 Email:<a href="mailto:contact@sweetdreams.ro">contact@sweetdreams.ro</a></li>
+                <li>📍 Adresa:<a href="https://maps.google.com/?q=Facultatea+de+Matematica+si+Informatica">Strada Academiei 14,Bucuresti 010014</a></li>
+                <li>💬 Chat: <a href="https://wa.me/40712345678" target="_blank">WhatsApp</a> <a href="skype:live:sweetdreams?chat">Skype</a>
+                </li>
+            </ul>
+          </section>
+
+            <!-- Iframe locatie -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1424.4486992562715!2d26.098344735205313!3d44.43526681866011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff472f372acd%3A0xb7e6e278a72d3fb4!2sStrada%20Academiei%2014%2C%20Bucure%C8%99ti%20010014!5e0!3m2!1sro!2sro!4v1740921319132!5m2!1sro!2sro" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+
+
+        <section id="schema-cromatica">
+            <h2>🎨 Schema cromatica</h2>
+            <p>Culoarea de baza este <strong>#5C4033</strong> – maro ciocolata.</p>
+            <p>Am ales o <strong>schema cromatica analoga extinsa</strong> cu 10 culori. Fiecare culoare are o semnificatie si o utilizare practica:</p>
+
+            <ul>
+            <li><strong>#5C4033</strong> – culoare principala (text, titluri, butoane)</li>
+            <li><strong>#7A5B4A</strong> – text secundar, subtil</li>
+            <li><strong>#D64045</strong> – butoane si linkuri CTA</li>
+            <li><strong>#B73238</strong> – hover pe rosu</li>
+            <li><strong>#F8BBD0</strong> – borduri, decor roz pastel</li>
+            <li><strong>#B7E4C7</strong> – produse vegane, aspect fresh</li>
+            <li><strong>#E3C565</strong> – elemente premium, auriu elegant</li>
+            <li><strong>#B49545</strong> – hover pe auriu</li>
+            <li><strong>#FFF5E1</strong> – fundal general crem cald</li>
+            <li><strong>#EAE4DC</strong> – borduri si separatoare subtile</li>
+            </ul>
+
+        </section>
+    
+    </section>
+    </main>
+
+    <!-- footer -->
+<footer >
+   
+    <small>&copy; 2024 Sweet Dreams. Toate drepturile rezervate.</small>
+    <time datetime="2024-02-26">26 februarie 2024</time>
+
+    <address>
+        <p>Contact: 
+            <a href="tel:+400712345678">Telefon: +40 712 345 678</a> |
+            <a href="https://maps.google.com/?q=Facultatea+de+Matematica+si+Informatica" target="_blank">Adresa: Strada Academiei 14, București 010014</a> |
+            <a href="mailto:contact@sweetdreams.ro">Email: contact@sweetdreams.ro</a> |
+            <a href="https://wa.me/40712345678" target="_blank">WhatsApp</a> |
+            <a href="skype:live:sweetdreams?chat">Skype</a>
+        </p>
+    </address>
+</footer>
+
+<a href="#" id="link-top" title="Mergi înapoi sus">
+    <div class="triangle"></div>
+  </a>
+  
+
+</div>
+
+<div id="watermark">&nbsp;</div>
+</body>
+
+</html>

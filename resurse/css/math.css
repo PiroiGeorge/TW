@@ -1,0 +1,20 @@
+math {
+    font-size: 1.3rem;
+    margin-top: 1em;
+    line-height: 1.4;
+    color: var(--culoare-primara); 
+  }
+  
+  math mi {
+    color: var(--accent-auriu);
+  }
+  
+  math mo {
+    color: var(--accent-rosu); 
+  }
+  
+  math mn {
+    color: var(--accent-verde); 
+    font-weight: bold;
+  }
+  

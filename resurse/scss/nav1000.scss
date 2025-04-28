@@ -1,0 +1,56 @@
+@media (max-width: 1000px) and (min-width: 701px) {
+  nav {
+    ul {
+      gap: 0.5em;
+    }
+
+    > ul > li > a {
+      font-size: 0.9em;
+      padding: 0.3em 0.8em;
+    }
+
+    /* Stil special pentru primul link (Home cu icon) */
+    > ul > li:first-child > a {
+      position: relative;
+      color: var(--accent-rosu);
+      overflow: hidden;
+
+      /* Ascundem textul din span */
+      span {
+        visibility: hidden;
+        display: inline-block;
+        width: 0;
+        height: 0;
+      }
+
+      /* Iconiță Font Awesome */
+      &::before {
+        content: "\f015";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 1em;
+        color: var(--accent-rosu);
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        pointer-events: none;
+      }
+
+      /* Fundal roșu doar la hover */
+      &:hover {
+        background-color: var(--accent-rosu);
+        color: white;
+
+        &::before {
+          color: white;
+        }
+      }
+
+      &::before,
+      &::after {
+        background: none;
+        transform: none;
+      }
+    }
+  }
+}

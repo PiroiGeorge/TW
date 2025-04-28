@@ -1,0 +1,72 @@
+{
+	"cale_galerie": "resurse/imagini/galerie",
+	"imagini": [
+	  {
+		"cale_imagine": "briose-frisca.png",
+		"titlu": "Brioșe",
+		"descriere": "Brioșe delicioase",
+		"timp": "08:00-24:00"
+	  },
+	  {
+		"cale_imagine": "clatite.png",
+		"titlu": "Clătite",
+		"descriere": "Clătite cu dulceață",
+		"timp": "09:00-24:00"
+	  },
+	  {
+		"cale_imagine": "gogosi.png",
+		"titlu": "Gogoși",
+		"descriere": "Gogoși glazurate",
+		"timp": "10:00-24:00"
+	  },
+	  {
+		"cale_imagine": "tort-scortisoara.png",
+		"titlu": "Tort Scorțișoară",
+		"descriere": "Tort aromat",
+		"timp": "11:00-14:00"
+	  },
+	  {
+		"cale_imagine": "prajitura-ciocolata.png",
+		"titlu": "Prăjitură Ciocolată",
+		"descriere": "Prăjitură de ciocolată",
+		"timp": "08:00-24:00"
+	  },
+	  {
+		"cale_imagine": "tarta-afine.png",
+		"titlu": "Tartă cu afine",
+		"descriere": "Tartă proaspătă",
+		"timp": "12:00-24:00"
+	  },
+	  {
+		"cale_imagine": "tort-trandafiri.png",
+		"titlu": "Tort Special",
+		"descriere": "Tort cu trandafiri",
+		"timp": "13:00-24:00"
+	  },
+	  {
+		"cale_imagine": "clatite2.png",
+		"titlu": "Clătite",
+		"descriere": "Clătite cu dulceață",
+		"timp": "09:00-24:00"
+	  },
+	  {
+		"cale_imagine": "gogosi2.png",
+		"titlu": "Gogoși",
+		"descriere": "Gogoși glazurate",
+		"timp": "10:00-24:00"
+	  },
+	  {
+		"cale_imagine": "tort-trandafiri2.png",
+		"titlu": "Tort Special",
+		"descriere": "Tort cu trandafiri",
+		"timp": "13:00-24:00"
+	  },
+	  {
+		"cale_imagine": "gogosi2.png",
+		"titlu": "Gogoși",
+		"descriere": "Gogoși glazurate",
+		"timp": "10:00-24:00"
+	  }
+	]
+  }
+  

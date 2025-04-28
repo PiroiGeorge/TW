@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@media (max-width: 1000px) and (min-width: 701px) {
+  nav {
+    /* Stil special pentru primul link (Home cu icon) */
+  }
+  nav ul {
+    gap: 0.5em;
+  }
+  nav > ul > li > a {
+    font-size: 0.9em;
+    padding: 0.3em 0.8em;
+  }
+  nav > ul > li:first-child > a {
+    position: relative;
+    color: var(--accent-rosu);
+    overflow: hidden;
+    /* Ascundem textul din span */
+    /* Iconiță Font Awesome */
+    /* Fundal roșu doar la hover */
+  }
+  nav > ul > li:first-child > a span {
+    visibility: hidden;
+    display: inline-block;
+    width: 0;
+    height: 0;
+  }
+  nav > ul > li:first-child > a::before {
+    content: "\f015";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1em;
+    color: var(--accent-rosu);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+  }
+  nav > ul > li:first-child > a:hover {
+    background-color: var(--accent-rosu);
+    color: white;
+  }
+  nav > ul > li:first-child > a:hover::before {
+    color: white;
+  }
+  nav > ul > li:first-child > a::before, nav > ul > li:first-child > a::after {
+    background: none;
+    transform: none;
+  }
+}

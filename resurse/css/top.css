@@ -1,0 +1,40 @@
+/* Buton fix - link-top */
+#link-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-left: 5px solid var(--culoare-secundara);
+    border-right: 5px solid var(--culoare-secundara);
+    border-radius: 50% / 100%;
+    opacity: 0.5;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+    text-decoration: none;
+    
+  }
+  
+  /* Triunghi */
+  #link-top .triangle {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 18px solid var(--accent-rosu); /* culoarea triunghiului */
+    transition: all 0.5s ease;
+  }
+  
+  /* Hover - opacitate + animatie triunghi */
+  #link-top:hover {
+    opacity: 1;
+  }
+  #link-top:hover .triangle {
+    transform: translateY(-5px);
+    border-bottom-color: var(--hover-rosu);
+  }
+  

@@ -1,0 +1,58 @@
+#grid-pagina{
+    display: grid;
+    grid-template-areas:    "zone1       zone1       zone1       zone1"
+                            "zone2       zone2       zone3       zone3"
+                            "zone2       zone2       zone4       zone4"
+                            "zone5       zone6       zone6       zone7"
+                            "zone8       zone8       zone8       zone8";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: var(--gap-grid);
+    padding: 1rem;
+
+}
+
+#grid-pagina > *{
+    outline: 2px solid var(--bordura-soft);
+    padding: 1rem;
+    border-radius: 20px;      
+
+
+}
+
+
+
+
+.zone1 {
+  grid-area: zone1;
+
+  
+}
+
+.zone2 {
+  grid-area: zone2;
+}
+
+.zone3 {
+  grid-area: zone3;
+}
+
+.zone4 {
+  grid-area: zone4;
+}
+
+.zone5 {
+  grid-area: zone5;
+}
+
+.zone6 {
+  grid-area: zone6;
+}
+
+.zone7 {
+  grid-area: zone7;
+}
+
+.zone8 {
+  grid-area: zone8;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html  lang="ro">
+    <head>
+        <meta name="description" content="Sweet Dreams - Prajituri artizanale, torturi delicioase si dulciuri rafinate, pregatite cu ingrediente de calitate. Comanda online si bucura-te de gustul perfect!"> 
+        <meta name="keywords" content="Prajituri proaspete, Livrare rapida, Torturi personalizate, Prajituri artizanale, Produse de patiserie, Deserturi fara zahar, Ingrediente naturale, Comanda rapida, Gust autentic, Magazin prăjituri, Comenzi speciale">
+        <title>Sweet Dreams 🍰</title>
+        <link rel="stylesheet" type="text/css" href="/resurse/css/eroare.css">
+        <%- include("../fragmente/head.ejs");  %> 
+
+
+    </head>
+    <body>
+        
+    <%- include("../fragmente/header.ejs");  %> 
+
+    <main>
+        <div id="err-coloane">
+			<div id="err-imag">
+				<img src="<%- locals.imagine %>" />
+			</div>
+			<section>
+				<h2><%- locals.titlu %></h2>
+				<p><%- locals.text %></p>
+			</section>
+		</div>
+    </main>
+    
+    <%- include("../fragmente/footer.ejs");  %> 
+
+
+    </body>
+</html>

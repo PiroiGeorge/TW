@@ -1,0 +1,27 @@
+:root{
+    /* Culoari */
+    --culoare-primara: #5C4033; /* Maro ciocolata - text, titluri, butoane */
+    --culoare-secundara: #7A5B4A; /* Maro cald - pentru texte secundare*/
+
+
+    /* Accente principale */
+    --accent-rosu: #D64045; /* Rosu cirese - butoane, linkuri CTA */
+    --hover-rosu: #B73238; /* Rosu inchis - hover pe rosu */
+
+    --accent-roz: #F8BBD0; /* Roz pastel - borduri, elemnte decorative */
+    
+    --accent-verde: #B7E4C7; /* Verde menta - produse vegane, fresh */
+
+    --accent-auriu: #E3C565; /* Auriu - elemnte premium */
+    --hover-auriu: #B49545; /* Auriu inchis - hover pe auriu */
+
+    /* Fundaluri */
+    --fundal-principal: #FFF5E1; /* Fundal crem cald general */
+    --fundal-secundar: #FFF9F0; /* Fundal secundar mai deschis */
+
+    /* Borduri */
+    --bordura-soft: #EAE4DC; /*Gri cald pentru linii si separatoare */
+
+
+
+ }

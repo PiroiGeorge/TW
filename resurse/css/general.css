@@ -1,0 +1,45 @@
+/* body css */
+body{
+    background-color: var(--fundal-principal);
+    color:var(--culoare-primara);
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    margin:0;
+    padding: 0;
+    
+}
+
+/* header css */
+header{
+    background-color: var(--accent-roz);
+    color:var(--culoare-primara);
+    text-align: center;
+    padding: 1.5em 1em;
+    border-radius: 20px;      
+    border-bottom: 4px solid var(--accent-auriu);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+  /* media */
+  img, iframe, embed, video {
+    width: 100%;        
+    max-width: 100%;                   
+    display: block;
+    margin: 0 auto;           
+    border-radius: 20px;      
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  }
+  
+
+  h2 {
+    font-family: 'Pacifico', cursive;
+  }
+  
+   /* sectiuni */
+   section{
+    padding: var(--spatiere-text);
+  }
+
+
+
+  

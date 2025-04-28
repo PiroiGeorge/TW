@@ -1,0 +1,97 @@
+/* 
+:root {
+    --font-normal: 'Segoe UI', sans-serif;
+    --font-bold: 700;
+    --font-italic: italic;
+  
+    --spatiere-mica: 0.5em;
+    --spatiere-medie: 1em;
+    --spatiere-mare: 2em;
+  
+    --culoare-text: #5C4033;
+    --culoare-subtila: #A1887F;
+    --culoare-fundal: #FFF5E1;
+  }
+  
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center, dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend, table, caption,
+  tbody, tfoot, thead, tr, th, td, article,
+  aside, canvas, details, embed, figure,
+  figcaption, footer, header, hgroup, menu,
+  nav, output, ruby, section, summary, time,
+  mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    color: inherit;
+    background: transparent;
+  }
+  
+  
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  
+ 
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: var(--font-normal);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--culoare-text);
+    background-color: var(--culoare-fundal);
+  }
+  
+ 
+  ul, ol {
+    list-style: none;
+    padding-left: var(--spatiere-medie);
+    margin-bottom: var(--spatiere-mica);
+  }
+  
+  li {
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+ 
+  ::marker {
+    color: var(--culoare-subtila);
+  }
+  
+ 
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: var(--spatiere-mica);
+  }
+  
+ 
+  strong, b {
+    font-weight: var(--font-bold);
+  }
+  
+  em, i {
+    font-style: var(--font-italic);
+  }
+     */

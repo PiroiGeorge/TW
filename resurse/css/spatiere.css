@@ -1,0 +1,33 @@
+:root {
+    --spatiere-pagina: 80px;
+    --gap-grid: 2rem;
+    
+}
+
+:root {
+    --spatiere-text: 1.5em;
+  }
+  
+
+/* ecran mediu */
+@media screen and (max-width: 1024px) {
+    :root {
+        --spatiere-pagina: 40px;
+        --gap-grid: 1.5rem;
+    }
+}
+
+/* ecran mic */
+@media screen and (max-width: 768px) {
+    :root {
+        --spatiere-pagina: 20px;
+        --gap-grid: 1rem;
+    }
+}
+
+main {
+    padding-left: var(--spatiere-pagina);
+    padding-right: var(--spatiere-pagina);
+    display: grid;
+    gap: var(--gap-grid);
+}

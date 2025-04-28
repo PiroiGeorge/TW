@@ -1,0 +1,112 @@
+#hamburger,
+#ch-menu {
+  display: none;
+}
+
+nav {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5em auto 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  li {
+    position: relative;
+
+    ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      border: 2px solid var(--accent-roz);
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      padding: 0.5em 0;
+      min-width: 200px;
+      z-index: 10;
+
+      li {
+        a {
+          display: block;
+          padding: 0.5em 1em;
+          text-align: left;
+          font-weight: normal;
+          color: var(--culoare-primara);
+          text-decoration: none;
+          border: none;
+          border-radius: 0;
+          opacity: 1;
+          transition: none;
+
+          &:hover {
+            animation: fadeInHover 0.5s ease-out forwards;
+            background-color: var(--accent-roz);
+            color: var(--culoare-primara);
+            text-decoration: underline double;
+          }
+        }
+      }
+    }
+
+    &:hover > ul {
+      display: block;
+    }
+  }
+
+  > ul > li > a {
+    position: relative;
+    overflow: hidden;
+
+    color: var(--accent-rosu);
+    background-color: white;
+    border: 2px solid var(--accent-rosu);
+    border-radius: 8px;
+    padding: 0.4em 1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    z-index: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--accent-rosu);
+      transform: scaleY(0);
+      transform-origin: center;
+      transition: transform 0.4s ease-in-out;
+      z-index: 0;
+    }
+
+    span {
+      position: relative;
+      z-index: 1;
+    }
+
+    &:hover {
+      color: white;
+
+      &::before {
+        transform: scaleY(1);
+      }
+    }
+  }
+}
+
+// Animație pentru hover pe submeniuri
+@keyframes fadeInHover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "Sweet Dreams - Prajituri artizanale, torturi delicioase si dulciuri rafinate, pregatite cu ingrediente de calitate. Comanda online si bucura-te de gustul perfect!",
+  "keywords": [
+    "Prajituri",
+    "proaspete",
+    "Livrare",
+    "rapida",
+    "Torturi",
+    "personalizate",
+    "Prajituri",
+    "artizanale",
+    "Produse",
+    "de",
+    "patiserie",
+    "Deserturi",
+    "fara",
+    "zahar",
+    "Ingrediente",
+    "naturale",
+    "Comanda",
+    "rapida",
+    "Gust",
+    "autentic",
+    "Magazin",
+    "prăjituri",
+    "Comenzi",
+    "speciale"
+  ],
+  "license": "ISC",
+  "author": "Piroi Madalin-George",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "sass": "^1.87.0",
+    "sharp": "^0.34.1"
+  }
+}

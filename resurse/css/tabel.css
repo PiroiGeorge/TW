@@ -1,0 +1,50 @@
+/* Caption sub tabel */
+#stilizare-tabel caption {
+    caption-side: bottom;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: var(--culoare-primara);
+    
+    
+  }
+  
+  /* Border tabel */
+  #stilizare-tabel {
+    border: 6px double var(--accent-auriu);
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  /* Celule */
+  #stilizare-tabel th,
+  #stilizare-tabel td {
+    border: 2px solid var(--culoare-primara);
+    padding: 0.6em 1em;
+    text-align: center;
+    transition: all 0.75s ease;
+  }
+  
+  /* Alternare culori pe coloane */
+  #stilizare-tabel td:nth-child(odd) {
+    color: var(--accent-rosu);
+  }
+  #stilizare-tabel td:nth-child(even) {
+    color: var(--culoare-primara);
+  }
+  
+  /* Hover pe rand */
+  #stilizare-tabel tbody tr:hover td {
+    background-color: var(--accent-roz);
+    color: var(--culoare-primara);
+    border-width: 4px;
+  }
+  
+  /* Responsiv: scroll doar pe container */
+  .container-tabel-scroll {
+    overflow-x: auto;
+    max-width: 100%;
+    
+  }
+  
